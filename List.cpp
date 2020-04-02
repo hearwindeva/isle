@@ -8,7 +8,6 @@ using namespace std;
 //堆的实现
 template <typename Item>
 class Seqlist
-{
 	private:
 		Item *data; // 数据存放
 		int count; // 目前所含数据量大小
